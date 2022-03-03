@@ -39,6 +39,7 @@ header > h1{
 
 header > p{
     padding-bottom: 50px;
+    
 
 }
 
@@ -67,18 +68,18 @@ section{
 
 
 
-.normal{
+section.normal{
     background-color: white;
     color: black;
 }
 
-.imagem{
-    background-color: #00000079;
+section.imagem{
+    
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
 }
 
-.imagem > p{
+section.imagem > p{
     background-color: rgba(0, 0, 0, 0.507);
     display: inline-block;
     padding: 10px;
@@ -86,7 +87,7 @@ section{
 
 }
 
-#img01{
+section#img01{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
@@ -96,7 +97,7 @@ section{
 }
 
 
-#img02{
+section#img02{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
