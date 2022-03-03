@@ -7,11 +7,7 @@
 
 body{
     font-size: 50px;
-    background-image: url(imagens/background001.jpg);
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    
 
 
 }
@@ -32,6 +28,10 @@ header > p{
 
 }
 
+article{
+
+    line-height: 80px;
+}
 
 .p01{
     font-size: 50px;
@@ -40,11 +40,23 @@ header > p{
     padding: 40px;
 }
 
+.p02{
+    display: block;
+    background-image: url(imagens/background001.jpg);
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    padding: 50px;
+    height: 600px;
+    
+}
+
 .p02 > p{ 
     background-color: rgba(0, 0, 0, 0.37);
     width: 600px;
-    color: white;   
-    margin: 40px;
+    color: white;
+    padding: 10px;   
+    
+    
     
 }
 
@@ -56,11 +68,24 @@ header > p{
     padding: 40px;
 }
 
+.p04{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: left;
+    padding: 50px;    
+    height: 600px;
+
+}
+
 .p04 > p{
     background-color: rgba(0, 0, 0, 0.37);
-    width: 600px;
-    color: white;   
-    margin: 40px;
+    width: 600px;    
+    color: white; 
+    padding: 10px; 
+    
+    
 }
 
 .p05{
@@ -76,8 +101,7 @@ footer{
     color: white;
     text-align: center;
     font-size: 18px;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 footer a{
@@ -88,6 +112,6 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
-
+    color: rgb(238, 10, 10);
 
 }
