@@ -1,2 +1,2 @@
 # projeto_cordel
- Mini Projeto 
+ Mini Projeto - Curso em Vídeo
