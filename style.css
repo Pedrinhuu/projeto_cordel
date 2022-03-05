@@ -5,8 +5,6 @@
 :root{
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;   
-
-
 }
 
 
@@ -110,6 +108,6 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;    
+    padding: 10px;
 }
 
